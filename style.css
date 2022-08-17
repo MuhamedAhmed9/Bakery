@@ -1,0 +1,246 @@
+body {
+  font-family: "Alegreya";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.full-width {
+  width: 100%;
+  padding: 50px 0;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+p {
+  color: #888;
+}
+h2 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #303030;
+}
+h3 {
+  color: #525252;
+  font-weight: 400;
+  font-size: 20px;
+}
+ul {
+  padding: 0;
+}
+.clearfix {
+  clear: both;
+}
+/* start main section */
+.main {
+  background-image: url(images/drew-coffman-1872.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+}
+.main .navbar ul {
+  list-style-type: none;
+  width: 40%;
+  display: inline-block;
+  margin: 0 0 27px 520px;
+  overflow: auto;
+}
+.main .navbar ul li {
+  display: inline-block;
+  margin-left: 25px;
+  font-family: "Open Sans", arial;
+}
+.main .navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.main .navbar img {
+  height: 48px;
+  margin: 20px 0 20px 60px;
+}
+.main .bg-dark {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+.sub-main {
+  color: #fff;
+  margin: 100px auto;
+  text-align: center;
+  font-family: "Open Sans", arial;
+}
+.sub-main p {
+  font-family: "Alegreya Sans";
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.sub-main h1 {
+  font-family: "Alegreya";
+  font-size: 76px;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+.sub-main .description {
+  font-family: "Alegreya";
+  font-size: 24px;
+  font-weight: 400;
+  width: 700px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 1.86em;
+}
+.sub-main button {
+  padding: 15px 28px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.sub-main button.contact {
+  background-color: transparent;
+}
+.sub-main button.learn {
+  background-color: #8e7754;
+  border: none;
+}
+/* end main section */
+/* start who we are section */
+.who-we-are {
+  width: 50%;
+  margin: 0 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+.who-we-are ul li {
+  line-height: 4em;
+  list-style: none;
+  color: #888;
+}
+.who-we-are li img {
+  vertical-align: middle;
+}
+.who-img-cls {
+  width: 45%;
+  display: inline-block;
+}
+.who-img-cls img {
+  width: 95%;
+  margin-left: 5px;
+}
+/* end who we are section */
+/* start our location section */
+.our-location {
+  width: 45%;
+  margin: 70px 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+.location-img-cls {
+  width: 50%;
+  display: inline-block;
+}
+.location-img-cls img {
+  width: 90%;
+}
+.location {
+  background-color: #f8f8f8;
+}
+.who-we-are p,
+.our-location p {
+  line-height: 1.7em;
+}
+/* end our location section */
+/* start baking section */
+.baking {
+  text-align: center;
+}
+.baking p {
+  margin-bottom: 40px;
+}
+.sub-baking {
+  width: 30%;
+  margin-left: 30px;
+  text-align: center;
+  display: inline-block;
+}
+.sub-baking p {
+  color: #686868;
+  line-height: 1.8em;
+}
+.sub-baking img {
+  width: 88%;
+}
+/* end baking section */
+/* start contact us section */
+.contactus {
+  background-color: #f8f8f8;
+}
+.contactus ul li {
+  line-height: 4em;
+  list-style: none;
+  color: #888;
+}
+.contactus ul li img {
+  vertical-align: middle;
+}
+.contactus .sub-cont1 {
+  padding-right: 30px;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 60px;
+}
+.contactus .sub-cont1 p {
+  line-height: 2em;
+}
+.contactus .sub-cont2 {
+  width: 45%;
+  display: inline-block;
+}
+/* end contact us section */
+/* start our info section */
+.ourinfo {
+  background-color: #403d38;
+}
+.ourinfo h4 {
+  color: white;
+}
+.ourinfo img {
+  vertical-align: middle;
+}
+.ourinfo .sub-info {
+  width: 24.7%;
+  vertical-align: top;
+  display: inline-block;
+}
+.ourinfo .sub-info .address {
+  vertical-align: right;
+}
+.ourinfo ul li {
+  line-height: 2.5em;
+  list-style: none;
+  color: #888;
+  border-bottom: 1px solid #4a4742;
+  margin-right: 25px;
+}
+.ourinfo .sub-info p:first-of-type {
+  margin-top: 35px;
+}
+.ourinfo .sub-info p:last-of-type {
+  margin-top: 35px;
+}
+/* end our info section */
+/* start footer */
+.footer {
+  background-color: #353330;
+  text-align: center;
+}
+.footer img {
+  vertical-align: middle;
+}
+/* end footer */
